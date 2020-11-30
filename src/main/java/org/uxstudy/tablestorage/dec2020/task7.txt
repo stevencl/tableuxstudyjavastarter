@@ -1,0 +1,28 @@
+        TableClient customerTable = tableServiceClient.getTableClient("customers");
+        TableEntity cust1 = new TableEntity("Europe", "000003")
+        .addProperty("FirstName", "Andy")
+        .addProperty("LastName", "Murray")
+        .addProperty("Street", "1 Main Street")
+        .addProperty("City", "Edinburgh")
+        .addProperty("Country", "Scotland");
+
+        TableEntity cust2 = new TableEntity("Europe", "000004")
+        .addProperty("FirstName", "Kelly")
+        .addProperty("LastName", "Macdonald")
+        .addProperty("Street", "1 Main Street")
+        .addProperty("City", "Edinburgh")
+        .addProperty("Country", "Scotland");
+
+        TableEntity cust3 = new TableEntity("Europe", "000005")
+        .addProperty("FirstName", "Flora")
+        .addProperty("LastName", "Macdonald")
+        .addProperty("Street", "1 Main Street")
+        .addProperty("City", "Edinburgh")
+        .addProperty("Country", "Scotland");
+
+        TableEntity cust4 = new TableEntity("Europe", "000006")
+        .addProperty("FirstName", "Muriel")
+        .addProperty("LastName", "Spark")
+        .addProperty("Street", "1 Main Street")
+        .addProperty("City", "Edinburgh")
+        .addProperty("Country", "Scotland");
